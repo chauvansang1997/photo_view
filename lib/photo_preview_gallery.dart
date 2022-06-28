@@ -527,7 +527,7 @@ class _PreviewGalleryState extends State<_PreviewGallery> {
   @override
   void initState() {
     _currentPage = widget.photoGalleryController.page;
-    WidgetsBinding.instance!
+    WidgetsBinding.instance
         .addPostFrameCallback((_) => _autoScrollController.scrollToIndex(
               _currentPage,
               duration: widget.animationDuration,

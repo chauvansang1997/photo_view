@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  scroll_to_index: ^2.0.0
+  scroll_to_index: ^3.0.1
   cached_network_image: ^3.0.0
 
 dev_dependencies:
